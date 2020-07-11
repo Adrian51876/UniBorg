@@ -9,8 +9,8 @@ from telethon import events, errors, functions, types
 from uniborg.util import admin_cmd
 
 
-PM_WARNS = {}
-PREV_REPLY_MESSAGE = {}
+PM_WARNS = {3}
+PREV_REPLY_MESSAGE = {3}
 
 
 BAALAJI_TG_USER_BOT = "My Master hasn't approved you to PM."
